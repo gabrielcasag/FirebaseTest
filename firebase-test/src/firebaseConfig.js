@@ -1,14 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB8bTWtwZUJfjXCkrZphZ0rMs0lcReJG2o",
-  authDomain: "samproom-eadf6.firebaseapp.com",
-  databaseURL: "https://samproom-eadf6.firebaseio.com/",
-  projectId: "samproom-eadf6",
-  storageBucket: "samproom-eadf6.appspot.com",
-  messagingSenderId: "453444499915",
-  appId: "1:453444499915:web:63fd6214ef71fea64c1e4e",
-  measurementId: "G-2LBVC10W63"
+  apiKey: "AIzaSyD9unD_woDxxadzZOGygznrx0RIabdZjXg",
+  authDomain: "test-fb-vue.firebaseapp.com",
+  projectId: "test-fb-vue",
+  storageBucket: "test-fb-vue.appspot.com",
+  messagingSenderId: "441251670841",
+  appId: "1:441251670841:web:f6844d0b09db4ef25816e8"
 };
 
 export default firebase.initializeApp(firebaseConfig);
